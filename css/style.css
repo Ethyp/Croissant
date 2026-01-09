@@ -1,0 +1,32 @@
+img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+body {
+  background-color: #d6c384;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.links a {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #d2691e;
+}
+
+@media (max-width: 600px) {
+  img {
+    max-width: 280px;
+  }
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 1.2rem;
+  }
+}
